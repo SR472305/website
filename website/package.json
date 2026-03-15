@@ -1,8 +1,8 @@
 {
+  "homepage": "https://SR472305.github.io/website",
   "name": "website",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://SR472305.github.io/website",
   "type": "module",
   "scripts": {
     "dev": "vite",
