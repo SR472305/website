@@ -9,4 +9,5 @@ build :{
 },
 
   plugins: [react(),tailwindcss()],
+  base:"/website/"
 })
