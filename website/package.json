@@ -1,17 +1,17 @@
 {
-  "homepage" : "https://github.com/SR472305/website",
+  "homepage" : "https://SR472305.github.io/website",
   "name": "website",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "module", 
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "lint": "eslint .",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "@tailwindcss/postcss": "^4",
     "@tailwindcss/vite": "^4.2.1",
